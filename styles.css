@@ -1,0 +1,58 @@
+main,
+header,
+footer,
+aside,
+article,
+nav {
+    border: 1px solid gray;
+}
+
+ul {
+    padding: 0;
+}
+
+.page-header {
+    padding-top: 0px;
+    margin: 0px 0 0px;
+    vertical-align: top;
+    width: 50%;
+    height: 50%;
+}
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.a1 {
+    border-bottom: #adb1b2 solid 1px;
+    padding: 15px 5px;
+}
+
+.a1 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.a1 ul li {
+    margin: 0px;
+    padding: 0px 35px;
+    display: inline;
+    font-size: 15px;
+    list-style-type: none;
+    border-right: black double 1px;
+}
+
+.a1 ul li a {
+    color: #d9dfd1;
+    text-decoration: none;
+}
+
+.a1 ul li a:hover {
+    color: #ffffff;
+}
+
+body {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-color: #cccccc;
+}
